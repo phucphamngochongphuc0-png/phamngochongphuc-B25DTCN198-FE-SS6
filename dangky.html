@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký lịch khám</title>
+    <link rel="stylesheet" href="NhaKhoa.css">
+</head>
+<body>
+    <h1>Đăng ký lịch khám</h1>
+    <nav class="menu">
+        <a href="NhaKhoa.html">Trang chủ</a> 
+        <a href="dichvu.html">Dịch vụ</a> 
+        <a href="dangky.html">Đăng ký khám</a> 
+    </nav>
+    <form action="#" class="form">
+        <label for="name">Họ tên:</label>
+            <input required type="text" id="name" name="name" placeholder="Nhập họ tên">
+        <br><br>
+        <label for="email">Email:</label>
+            <input required type="email" id="email" name="email" placeholder="Example@gmail">
+        <br><br>
+        <label for="phone">Số điện thoại:</label>
+            <input required type="tel" id="phone" name="phone">
+        <br><br>
+        <label for="service">Dịch vụ:</label>
+            <select required id="service" name="service">
+                <option value="">Chọn dịch vụ</option>
+                <option value="kham">Khám răng tổng quát</option>
+                <option value="laycao">Lấy cao răng</option>
+                <option value="nieng">Niềng răng</option>
+            </select>
+        <br><br>
+        <label for="date">Ngày khám</label>
+            <input required type="date" id="date" name="date">
+        <br><br>
+        <label for="note">Ghi chú thêm</label>
+        <textarea name="note" id="note" placeholder="Yêu cầu thêm..."></textarea>
+        <br><br/>
+        
+        <input type="submit" value="Gửi đăng ký">
+    </form>
+    <footer>
+    <p>© 2026 Nha Khoa Chăm Sóc nụ cười việt</p>
+    <p>Địa chỉ: 123 Đường nụ cười - Hotline: 0900 000 000</p>
+</footer>
+</body>
+</html>
